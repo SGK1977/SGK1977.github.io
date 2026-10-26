@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Spain trip, day by day</title>
+  <meta name="description" content="Our day-by-day guide to Spain, November 22–30, 2026: plans, stays, maps and tips.">
+  <meta name="theme-color" content="#00636e" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f2224" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to the plan</a>
+
+  <header class="masthead">
+    <h1 class="trip-title"><a href="#trip">Spain</a></h1>
+    <nav class="top-nav" aria-label="Guide sections">
+      <a href="#trip">Whole trip</a>
+      <a href="#info">Good to know</a>
+    </nav>
+    <p class="trip-when" id="trip-when"></p>
+    <p class="trip-route" id="trip-route"></p>
+  </header>
+
+  <nav class="days" aria-label="Trip days">
+    <div class="days-scroll" id="day-strip"></div>
+  </nav>
+
+  <main id="main" tabindex="-1">
+    <noscript><p class="noscript">This guide needs JavaScript to show the plans. Turn it on, or open the Google Sheet: https://docs.google.com/spreadsheets/d/1ecaiZcdZVr3sYVD46p4rvK5DGhHFoa52Oeg7y4tvObM/edit</p></noscript>
+  </main>
+
+  <footer class="foot" id="foot"></footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/sheet-snapshot.js"></script>
+  <script src="js/guide.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
